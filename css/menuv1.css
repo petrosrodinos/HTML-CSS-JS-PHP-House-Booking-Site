@@ -1,0 +1,95 @@
+.supper{
+  position: relative;
+  background-color:blue;
+  left:20%;
+  top:-80%;
+  width: 10%;
+  height:10%;
+  z-index: 100;
+  color:white;
+}
+
+body{
+background-color:white;
+}
+
+.loginlanguage{
+  position: fixed;
+  top:4%;
+  left:79%;
+  font-size:1vw;
+  z-index: 100;
+  color: #666;
+
+}
+
+.loginbtn a{
+  text-decoration: none;
+  color: #666;
+}
+
+.loginbtn .loginbtnn:hover{
+  color:#b32d00;
+}
+
+ .loginbtnn a{
+   text-decoration: none;
+   color: #666;
+ }
+
+ .loginbtnn a:hover{
+   color:#b32d00;
+ }
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color: #f9f9f9;
+  min-width: 50px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #333;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 0.8vw;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.language:hover .dropdown-content {
+  display: block;
+}
+
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+li:hover{
+  color: #b32d00;
+  cursor: pointer;
+}
+
+li{
+  float:left;
+}
+
+.menulist li{
+  text-align: center;
+  position:relative;
+  top:2.1em;
+  left:-3%;
+  padding-left: -100px;
+  padding-right: -10px;
+  text-transform: uppercase;
+  width: 10.2%;
+  font-size: 1vw;
+  opacity: 999;
+}

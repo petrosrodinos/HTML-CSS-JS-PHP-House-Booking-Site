@@ -1,0 +1,210 @@
+.error{
+  position: relative;
+  z-index: 100;
+  background: rgba(0, 0, 0, 0.5);
+  top:30%;
+  width: 100%;
+  color:black;
+  font-weight: 700;
+}
+
+.error i{
+  padding-left: 30px;
+}
+
+
+.loginout{
+  display: none;
+  position: fixed;
+  background-color: #f2f2f2;
+  top:30%;
+  z-index: 999;
+  left:42%;
+  width: 20%;
+  height: auto;
+  border-radius: 10px;
+  overflow: auto;
+  }
+
+  .login{
+      display: block;
+      height: auto;
+    }
+
+  .register{
+      display: none;
+      height: auto;
+    }
+
+
+
+  .loginitem{
+    outline: none;
+    text-decoration: none;
+    border: 0.5px solid #b32d00;
+    font-family: "Slab Serif";
+    height: 2.5em;
+    width: 90%;
+    border-radius: 5px;
+    color:#666;
+    font-size: 1em;
+    padding-left: 10px;
+  }
+
+  .loginitem::placeholder{
+    padding-left: 10px;
+    font-size: 1vw;
+  }
+
+  .login li{
+    padding-top: 3%;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+  }
+
+  .register li > .stylebutton{
+    width: 100%;
+    margin-right: 50px;
+
+  }
+
+  .register li > .loginitem{
+    width:90%;
+}
+
+
+.register li{
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  width:40%;
+
+}
+
+.exitbtn{
+  font-size: 2vw;
+}
+
+.exitbtn:hover{
+  color:black;
+  cursor: pointer;
+}
+
+.stylebutton{
+  position: relative;
+  background-color: #b32d00;
+  color: white;
+  transition: all 0.3s ease 0s;
+  font-size: 0.8vw;
+}
+
+.stylebutton:hover{
+  cursor:pointer;
+  border: none;
+  background-color:#333;
+}
+
+@media(max-width:1093px){
+  .loginout{
+    width: 30%;
+  }
+  .login li{
+    float:left;
+    padding-left: 1px;
+  }
+  .loginout{
+    height: 60%;
+  }
+
+  .loginitem::placeholder{
+    font-size: 2vw;
+  }
+
+  .stylebutton{
+    font-size: 1.4vw;
+  }
+
+}
+
+@media(max-height:654px){
+  .loginout{
+    height: 80%;
+    top: 18%;
+  }
+}
+
+
+ @media(max-height:796px){
+  .loginout{
+    height: 50%;
+  }
+}
+
+
+
+@media(max-height:564px){
+  .loginout{
+    height: 75%;
+  }
+}
+
+@media(max-height:591px){
+  .loginout{
+    height: 75%;
+  }
+}
+
+@media(max-width:1426px){
+  .login li{
+    padding-left: 10px;
+  }
+
+}
+
+@media(max-width:681px){
+  .register li{
+    padding-left:10px;
+}
+
+
+@media(max-width:1100px){
+  .loginout{
+    height: 50%;
+    width:40%;
+    left: 30%;
+    padding-left: 10px;
+  }
+  .exitbtn{
+    font-size: 2vw;
+  }
+}
+
+ @media(max-height:616px){
+  .loginout{
+    height: 70%;
+  }
+
+.loginout{
+  display: none;
+  position: fixed;
+  background-color: #f2f2f2;
+  top:30%;
+  z-index: 999;
+  left:42%;
+  width: 20%;
+  height: auto;
+  border-radius: 10px;
+  overflow: auto;
+  }
+
+  .login{
+      display: block;
+      height: auto;
+    }
+
+  .register{
+      display: none;
+      height: auto;
+    }
+  }

@@ -1,0 +1,28 @@
+#map {
+  position: relative;
+  left: 1%;
+  top: -85%;
+  height: 80%;
+  width: 45%;
+  border-radius: 10px;
+  animation-duration: 1s;
+  animation-name: boxanimation;
+}
+
+@keyframes boxanimation {
+ from{opacity:0;}
+ to{opacity: 1;}
+}
+
+@media (max-width: 955px) {
+  #map{
+    width: 70%;
+  }
+}
+
+@media (max-width: 500px) {
+  #map{
+    width: 80%;
+    height: 550px;
+  }
+}

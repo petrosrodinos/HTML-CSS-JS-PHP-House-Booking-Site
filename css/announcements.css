@@ -1,0 +1,246 @@
+.errorscomment{
+  position: relative;
+  z-index: 100;
+  color: #b32d00;
+  top:80%;
+  width: 100%;
+  font-weight: 700;
+  outline: none;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.errorss{
+  position: relative;
+  z-index: 100;
+  color: #b32d00;
+  top:80%;
+  width: 100%;
+  font-weight: 700;
+  outline: none;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.errorscomment i{
+  padding-left: 30px;
+}
+
+.postbox{
+  display: none;
+  position: relative;
+  top: -80%;
+  left: 10%;
+  width: 20%;
+	height:auto;
+  background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  border-radius: 10px;
+  animation-duration: 1s;
+  animation-name: boxanimation;
+}
+
+.postboxitem{
+  padding: 5px;
+  height: 6%;
+  color: #666;
+  font-size: 0.8vw;
+  outline: none;
+  border: 1px solid #b32d00;
+  width: 90%;
+  font-size: 1vw;
+  resize: none;
+  border-radius: 10px;
+}
+
+.postbox li{
+  padding:10px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  width: 100%;
+}
+
+.postboxbtn{
+  position: relative;
+  left:0%;
+  background-color: #b32d00;
+  width: 90%;
+  height: 2.7em;
+  border: none;
+  font-weight: 700;
+  color: white;
+}
+
+.postboxbtn:hover{
+  border: 1px solid white;
+}
+
+.posts{
+  position: relative;
+  display: block;
+  top:-80%;
+  left: 5%;
+  width: 30%;
+	height:75%;
+	padding-top: 10px;
+	border: 1px solid #b32d00;
+  border-radius: 10px;
+	text-align: center;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.8);
+  animation-duration: 1s;
+  animation-name: boxanimation;
+  overflow: auto;
+  box-sizing: border-box;
+}
+
+@keyframes boxanimation {
+ from{opacity:0;}
+ to{opacity: 1;}
+}
+
+.posts li{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: default;
+  width: 90%;
+  position: relative;
+  left: 5%;
+  height: auto;
+
+}
+
+.postcomm{
+  color: #b32d00;
+  position: relative;
+  padding: 20px;
+  border: 1px solid white;
+  width: auto;
+  height: 50%;
+  box-sizing: border-box;
+}
+
+.postcomm strong{
+  left: -40%;
+  top: -10px;
+}
+
+.postcomm h9{
+  left: -43%;
+  top: -10px;
+}
+
+.comment{
+  width:90%;
+  padding: 20px;
+  word-wrap: break-word;
+  height: auto;
+}
+
+
+.posts ul{
+  height: auto;
+  width: 100%;
+}
+
+.postbtn{
+  position: relative;
+  left:-40%;
+  background-color: #b32d00;
+  width: 20%;
+  height: 3em;
+  padding: 1px;
+  border: none;
+  font-weight: 700;
+  color: white;
+}
+
+.postbtn:hover{
+  border: 1px solid white;
+}
+
+
+
+strong, h9{
+  position: relative;
+  left:-35%;
+  color:white;
+}
+
+h9{
+  font-size: 14px;
+}
+
+.posts::-webkit-scrollbar-thumb {
+  background-color: #b32d00;
+  border-radius: 10px;
+}
+
+
+.posts::-webkit-scrollbar {
+  width: 5px;
+}
+
+@media screen and (max-width: 1399px) {
+  .posts{
+    width:40%;
+  }
+  .postbtn{
+    height: 3em;
+  }
+}
+
+@media screen and (max-width: 993px) {
+  .posts{
+    width:50%;
+  }
+}
+
+@media screen and (max-width: 627px) {
+  .posts{
+    width:80%;
+  }
+
+}
+
+@media screen and (max-width: 1547px) {
+  .postbox{
+    width:30%;
+  }
+  .postboxitem{
+    height: 30px;
+    font-size: 1.5vw;
+  }
+  .postbox textarea{
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 828px) {
+  .postbox{
+    width:35%;
+  }
+  .postboxitem{
+    height: 35px;
+    font-size: 2vw;
+  }
+  .postbox textarea{
+    height: 100px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .postbox{
+    width:60%;
+    left: 20%;
+  }
+  .postboxitem{
+    height: 35px;
+    font-size: 3vw;
+  }
+  .postbox textarea{
+    height: 140px;
+  }
+}

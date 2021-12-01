@@ -1,0 +1,154 @@
+body, html{
+  height:100%;
+  margin:0;
+  font-size:16px;
+  font-family:"Lato", sans-serif;
+  font-weight:400;
+  line-height:1.8em;
+  color:#666;
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5,.pimg6,.pimg7{
+  position:relative;
+  opacity:0.70;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+}
+
+.pimg1{
+  background-image:url('https://a0.muscache.com/im/pictures/50bfa17c-1229-4eaf-8bc9-ff97e27ce1ea.jpg?aki_policy=xx_large');
+  min-height:100%;
+  top: -10%;
+}
+
+.pimg2{
+  background-image:url('https://a0.muscache.com/im/pictures/5fd1cc6a-3f5d-487a-9e30-b4765042c369.jpg?aki_policy=xx_large');
+  min-height:400px;
+}
+
+.pimg3{
+  background-image:url('https://a0.muscache.com/im/pictures/d6b5e094-0137-4ad4-b1ec-755e44a575b3.jpg?aki_policy=xx_large');
+  min-height:400px;
+}
+
+.pimg4{
+  background-image:url('https://a0.muscache.com/im/pictures/7ceb5a3d-6249-4b93-b8d4-9023524ad185.jpg?aki_policy=xx_large');
+  min-height:700px;
+
+}
+
+.pimg5{
+  background-image:url('https://a0.muscache.com/im/pictures/574bf7f7-f073-47df-aedd-c51d15ce307e.jpg?aki_policy=xx_large');
+  min-height:100%;
+
+}
+
+.pimg6{
+  background-image:url('https://a0.muscache.com/im/pictures/eed3696e-da24-4866-b684-445bc1aafef4.jpg?aki_policy=xx_large');
+  min-height:100%;
+
+}
+
+.pimg7{
+  background-image:url('https://a0.muscache.com/im/pictures/32cd8abc-c254-4f2c-af98-ace80c1361da.jpg?aki_policy=xx_large');
+  min-height:100%;
+
+}
+
+.section{
+  text-align:center;
+  padding:50px 80px;
+}
+
+.section-light{
+  background-color:#f4f4f4;
+  color:#666;
+}
+
+.section-dark{
+  background-color:#282e34;
+  color:#ddd;
+}
+
+.ptext{
+  display: none;
+  position:absolute;
+  top:50%;
+  width:40%;
+  left: 30%;
+  text-align:center;
+  font-size:1.5vw;
+  letter-spacing:8px;
+  text-transform:uppercase;
+  animation-duration: 1s;
+  animation-name: ptext;
+}
+
+@keyframes ptext {
+ from{opacity:0;}
+ to{opacity: 1;}
+}
+
+.ptext .border{
+  background-color:#111;
+  color:#fff;
+  padding:2%;
+}
+
+.ptext:hover{
+  cursor:pointer;
+}
+
+.ioanna{
+  display:none;
+  position: absolute;
+  top: -600%;
+  left: 20%;
+  width: 60%;
+  animation-duration: 1s;
+  animation-name: ioanna;
+  cursor:default;
+}
+
+.ioanna2{
+  position: relative;
+  top: 10vw;
+  left: 20%;
+  width: 25%;
+  cursor:default;
+}
+
+@keyframes ioanna {
+ from{opacity:0;}
+ to{opacity: 1;}
+}
+
+
+@media(max-width:1236px){
+  .ioanna{
+    width: 50%;
+    left: 25%;
+    top:-500%;
+    height: 150px;
+  }
+}
+
+@media(max-width:1029px){
+  .ioanna{
+    width: 50%;
+    left: 25%;
+    top:-250%;
+    height: 150px;
+  }
+}
+
+@media(max-width:517px){
+  .ioanna{
+    width: 50%;
+    left: 25%;
+    top:-150%;
+    height: 150px;
+  }
+}
